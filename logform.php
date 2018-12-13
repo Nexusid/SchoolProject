@@ -8,7 +8,7 @@ if(isset($_POST['Submit']))
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$res = mysqli_query($sql,"select* from user where username='$username' AND password='$password'");
+$res = mysqli_query($sql,"select* from administrator where username='$username' AND password='$password'");
 $result=mysqli_fetch_array($res);
 if($result)
 {

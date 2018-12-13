@@ -1,0 +1,76 @@
+html, body {
+    font-family: 'Teko';
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+  }
+  
+  body {
+    background: linear-gradient(90deg, #5549b5 0%, #2b2b1a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6em;
+  }
+  
+  *, *:before, *:after { box-sizing: inherit; }
+  h1 {
+    margin-bottom: 26px;
+  }
+  .card {
+    height: auto;
+      max-height:299px;
+      width: 223px;
+      overflow: hidden;
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      -webkit-transition: .1s ease-in-out;
+      transition: .1s ease-in-out;
+    padding-bottom: 10px;
+    cursor: pointer
+  }
+  .card:hover {
+    transform: scale(1.2);
+  }
+  .banner {
+    height: 100px;
+    width: inherit;
+    padding-top: 35px;
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1536585104412-0348a7c4a867?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0548377ffff14e3b6f54f26958715886&auto=format&fit=crop&w=600&q=60);
+  }
+  .avatar {
+    height: 100px;
+    width: 100px;
+    margin: auto auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #F1F1F1;
+    border: 3px solid #FFFFFF;
+    border-radius: 100%;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    background-image: url(../assets/images/me.png);
+  }
+  h3 {
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #212121;
+  }
+  a {
+    display: block;
+    padding: 3px 0px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+  }
